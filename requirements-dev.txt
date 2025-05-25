@@ -1,0 +1,44 @@
+# Code formatting
+black>=23.0.0
+isort>=5.12.0
+
+# Linting
+flake8>=6.0.0
+ruff>=0.1.0
+
+# Type checking
+mypy>=1.5.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+
+# Code quality plugins for flake8
+flake8-docstrings>=1.7.0
+flake8-import-order>=0.18.2
+flake8-bugbear>=23.0.0
+flake8-comprehensions>=3.14.0
+
+# Pre-commit hooks (optional but recommended)
+pre-commit>=3.3.0
+
+# Documentation
+sphinx>=7.1.0
+sphinx-autodoc-typehints>=1.24.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Debugging
+ipdb>=0.13.13
+pdbpp>=0.10.3
+
+# Performance profiling
+line-profiler>=4.0.0
+memory-profiler>=0.60.0
+
+# Additional development tools
+tox>=4.6.0
+coverage>=7.2.0
+bandit>=1.7.5  # Security linting
